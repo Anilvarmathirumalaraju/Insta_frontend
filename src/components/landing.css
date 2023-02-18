@@ -1,0 +1,55 @@
+#coverImg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 650px;
+    opacity: 0.6;
+}
+.container1{
+    display: flex;
+    width:50% ;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid grey;
+    border-radius: 4.5px;
+    -webkit-box-shadow:  10px 10px 7px -2px rgba(123,181,143,1);
+    -moz-box-shadow: 10px 10px 7px -2px rgb(38, 180, 168);
+    box-shadow: 10px 10px 7px -2px rgba(123,181,143,1);
+    background-color: white;
+}   
+.container1 img{
+    width:55% ;
+    height: 550px; 
+}
+.container1 h2{
+    align-self: center;
+    color:green;
+}
+
+.container2{
+    align-self: center;
+    margin-left: 50px;
+}
+.container2 h2{
+        font-size:xx-large;
+}
+.container2 button{
+    margin-left: 60px;
+   font-weight: bold;
+    font-size:1em;
+}
+#landbutton{
+   
+width: 90px;
+height: 44px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 3px solid #006238;
+border-radius: 16px;
+opacity: 1;
+color: #006238; 
+}
+
+
